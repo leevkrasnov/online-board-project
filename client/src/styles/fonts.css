@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'EncodeSansExpanded';
+  src: url('/src/assets/fonts/EncodeSansExpanded-Regular.ttf')
+    format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EncodeSansExpanded';
+  src: url('/src/assets/fonts/EncodeSansExpanded-SemiBold.ttf')
+    format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EncodeSansExpanded';
+  src: url('/src/assets/fonts/EncodeSansExpanded-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EncodeSansExpanded';
+  src: url('/src/assets/fonts/EncodeSansExpanded-ExtraBold.ttf')
+    format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EncodeSansExpanded';
+  src: url('/src/assets/fonts/EncodeSansExpanded-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}

@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@import './fonts.css';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-encode: 'EncodeSansExpanded', sans-serif;
+
+  /* Dark Theme */
+  --color-onyx: #30333a; /*second */
+  --color-charcoal: #313640;
+  --color-mist: #98b3af;
+  --color-silver: #d6d6d6;
+  --color-peach: #ffc285;
+
+  /* Light Theme */
+  --color-sky: #bcc3ca;
+  --color-slate: #444e61;
+  --color-azure: #5d8ec7;
+  --color-coral: #eb8b67;
+}
