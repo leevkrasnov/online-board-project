@@ -1,9 +1,10 @@
-import useThemeStore from '../../store/theme';
+import { useThemeStore } from '../../store/theme';
 import { Contrast } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function ThemeToggle() {
-  const { theme, toggleTheme } = useThemeStore();
+  const theme = useThemeStore((state) => state.theme);
+  const toggleTheme = useThemeStore((state) => state.toggleTheme);
 
   return (
     <motion.button
